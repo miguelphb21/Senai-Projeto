@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Gastos</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    body{
+        font-family: arial;
+        width: 25%;
+        margin: 25% auto;
+        background-position: 50%;
+        background-size: 45%;
+        background-image: url(tablet1.png);
+        background-repeat: no-repeat;
+        color: white;
+    }
+    h1{
+        text-align: center;
+    }
+    table,td,tr{
+        width: 60%;
+        font-size: 95%;
+        border: 0.1px solid;
+        margin: 20px auto;
+        padding: 3px;
+    }
+    
+    .buttons{
+        display: grid;
+        justify-items: center;
+    }
+    button{
+        padding: 10px;
+        margin: 5px auto;
+        width: 70%;
+        border-radius: 20px;
+        border: 0.1px solid white;
+        background-color: blue;
+    }
+    button:hover{
+        background-color: rgb(2, 2, 129);
+    }
+    </style>
+</head>
+<body>
+    <h1>
+        Gestão de Gastos
+    </h1>
+    <table>
+        <tr>
+            <td>
+                <strong>Data</strong>
+            </td>
+            <td>
+                <strong>Valor</strong>
+            </td>
+            <td>
+                <strong>Descrição</strong>
+            </td>
+            <td>
+                <strong>Categoria</strong>
+            </td>
+            <td>
+                <strong>Conta</strong>
+            </td>
+        </tr>
+    </table>
+    <div class="buttons">
+        <button>Editar</button>
+        <button>Adicionar</button>
+        <button>Remover</button>
+    </div>
+</body>
+</html>
